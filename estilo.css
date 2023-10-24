@@ -1,0 +1,277 @@
+.dv1{
+    align-self: center;
+    background-color: darkorange;
+    width: 40%;
+    height: 30%;
+    margin-top: 15%;
+    margin-left: 30%;
+}
+.dv2{
+    margin-left: 30%;
+    margin-bottom: 20px;
+    width: 40%;
+    background-color: gray  ;
+    padding: 10px;
+}
+.dv3{
+    margin-left: 30%;
+    width: 40%;
+    margin-bottom: 20px;
+    background-color: gray;
+    padding: 10px;
+}
+.dv4{
+    margin-left: 30%;
+    width: 40%;
+}
+.dv5{
+    margin-left: 30%;
+    width: 40%;
+    margin-bottom: 20px;
+    background-color: gray;
+    padding: 10px;
+}
+.dv6{
+    margin-left: 40%; 
+    width: 40%; 
+    height: 40%;  
+    margin-bottom: 15px;
+    background-color: gray;
+    padding: 10px;
+}
+
+.nop{
+
+    color: darkred ;
+    padding: 10%;
+    text-align: center;
+}
+
+
+
+a:hover{
+    color: lightgray;
+}
+a::before{
+    color: black;
+}
+a{
+    color: black;
+}
+
+body{
+    /*background-image: url("imagens/fundo.jpg");
+    background-size: cover;*/
+    background-image: linear-gradient(to right, gray, white, gray);
+}
+
+.h{
+    text-align: center;
+}
+
+.mei{
+    margin-left: 30%;
+}
+.meii{
+    margin-left: 42%;
+}
+nav {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo {
+    margin-right: 20px;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+  .logo2 img{
+    float: left;
+    width: 20%;
+    background-color: black;
+    padding: 10px;
+  }
+  .logo3 img{
+    float: left;
+    margin-left: 15%;
+    width: 20%;
+    background-color: black;
+    padding: 10px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 32%;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 10px;
+  }
+  
+  nav li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav li a:hover {
+    background-color: #555;
+  }
+  
+  .contact{
+    font-size: 300%;
+    text-align: center;
+  }
+
+  .aulas {
+    padding-top: 2%;
+    width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .article {
+    width: calc(100% - 10px);
+    background-color: gray;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .article h2 {
+    margin: 0;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #teste{
+    display: none;
+    
+  }
+  #teste1{
+    text-align: right;
+  }
+
+  #teste2{
+    display: none;
+  }
+
+  #teste3{
+    text-align: right;
+  }
+  .back{
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 15px ;
+    width: 60px;
+    height: auto;
+  }
+
+
+  iframe{
+
+    margin: 10px;
+    height: 90%;
+    width: 50%;
+
+  }
+  footer{
+    text-align: right;
+    background-color: #333;
+    height: 40%;
+    display: flex;
+}
+.imgfoot{
+  margin: 10px;
+  width: 15%;
+  
+}
+.center{
+  text-align: center;
+  width: 35%;
+  color: #fff;
+}
+.center2{
+  text-align: center;
+  width: 100%;
+  margin-left: 30%;
+  display: flex;
+}
+.icon{
+  width: 10%;
+  height: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Estilize o radio button padrão, tornando-o invisível */
+.custom-radio input[type="radio"] {
+  display: none;
+}
+
+/* Estilize o elemento visual personalizado */
+.custom-radio {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px; /* Espaço para o elemento visual personalizado */
+  cursor: pointer;
+}
+
+/* Estilize o ponto do radio button personalizado */
+.radio-dot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333; /* Cor da borda quando não estiver selecionado */
+  border-radius: 50%;
+}
+
+/* Estilize o ponto do radio button quando estiver selecionado */
+.custom-radio input[type="radio"]:checked + .radio-dot {
+  background-color: #333; /* Cor de preenchimento quando selecionado */
+  border-color: #333; /* Cor da borda quando selecionado */
+}
