@@ -154,8 +154,7 @@ nav {
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
-    align-items: center;
-    justify-content: center;
+    
   }
   
   .article {
@@ -163,6 +162,9 @@ nav {
     background-color: gray;
     padding: 20px;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .article h2 {
