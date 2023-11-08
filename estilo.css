@@ -288,4 +288,10 @@ nav {
     .dv6{
         height: 20%;
     }
+    nav ul{
+        padding-left:35%;
+    }
+    body{
+        text-size: 23px;
+    }
 }
