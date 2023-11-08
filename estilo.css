@@ -276,3 +276,16 @@ nav {
   background-color: #333; /* Cor de preenchimento quando selecionado */
   border-color: #333; /* Cor da borda quando selecionado */
 }
+
+@media only screen and (max-device-width: 500px){
+    footer{
+        display: none;
+    }
+
+    .logo{
+        display: none;
+    }
+    .dv6{
+        height: 20%;
+    }
+}
